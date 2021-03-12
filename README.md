@@ -20,6 +20,6 @@ julia> using Pkg
 julia> Pkg.add("https://github.com/genkuroki/MyUtils.jl")
 ```
 
-## Usage
+## Example
 
-See [MyUtils.ipynb](blob/main/MyUtils.ipynb) for details.
+See [MyUtils.ipynb](https://github.com/genkuroki/MyUtils.jl/blob/main/MyUtils.ipynb) for the details of this package.
