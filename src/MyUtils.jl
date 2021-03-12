@@ -1,5 +1,6 @@
 module MyUtils
 
-# Write your package code here.
+include("my_threads.jl")
+include("my_distributed.jl")
 
 end

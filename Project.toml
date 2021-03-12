@@ -3,6 +3,9 @@ uuid = "a905a9d9-1f33-49e1-8b11-bf004baf7ee1"
 authors = ["genkuroki <genkuroki@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
