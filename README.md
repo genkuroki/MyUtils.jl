@@ -6,6 +6,9 @@
 [![Build Status](https://travis-ci.com/genkuroki/MyUtils.jl.svg?branch=master)](https://travis-ci.com/genkuroki/MyUtils.jl)
 -->
 
+* Copyright (c) 2021 Gen Kuroki
+* License: https://opensource.org/licenses/MIT
+
 ## Installation
 
 ```
@@ -20,6 +23,6 @@ julia> using Pkg
 julia> Pkg.add("https://github.com/genkuroki/MyUtils.jl")
 ```
 
-## Example
+## Examples
 
 See [MyUtils.ipynb](https://github.com/genkuroki/MyUtils.jl/blob/main/MyUtils.ipynb) for the details of this package.
