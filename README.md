@@ -25,4 +25,4 @@ julia> Pkg.add("https://github.com/genkuroki/MyUtils.jl")
 
 ## Examples
 
-See [MyUtils.ipynb](https://github.com/genkuroki/MyUtils.jl/blob/main/MyUtils.ipynb) for the details of this package.
+See [MyUtils.ipynb](https://github.com/genkuroki/MyUtils.jl/blob/main/MyUtils.ipynb) ([nbviewer](https://nbviewer.jupyter.org/github/genkuroki/MyUtils.jl/blob/main/MyUtils.ipynb)) for the details of this package.

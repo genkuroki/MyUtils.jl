@@ -69,7 +69,7 @@ end
     @my_threads
 
 A macro to parallelize a `for` loop to run with multiple threads. 
-It splits the iteration space among multiple tasks with `prebody` and `prebody`.
+It splits the iteration space among multiple tasks with `prebody` and `postbody`.
 It runs those tasks on threads according to a scheduling policy.
 
 Usage:
