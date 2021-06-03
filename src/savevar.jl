@@ -15,20 +15,18 @@ loads the file `fn` (the filename string of the file) and `Meta.parse |> eval`.
 loadvar(fn) = read(fn, String) |> Meta.parse |> eval
 
 """
-    dir_savevar
+    dir_savevar[]
 
 is the default directory to which `@savevar` saves the values of variables.
-
-
 """
-const dir_savevar = "."
+const dir_savevar = Ref(".")
 
 """
     fn_savevar(x::Symbol)
 
 is the filename string to which `@savevar` saves the value of a variable.
 """
-fn_savevar(x::Symbol) = joinpath(dir_savevar, string(x) * ".txt")
+fn_savevar(x::Symbol) = joinpath(dir_savevar[], string(x) * ".txt")
 
 """
     @savevar(args...)
