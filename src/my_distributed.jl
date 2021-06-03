@@ -1,4 +1,12 @@
-# See julia/stdlib/Distributed/src/macros.jl
+# The following code is a modified version of
+# 
+#    function make_preduce_body(var, body)
+#    function make_pfor_body(var, body)
+#    macro distributed(args...)
+#
+# in https://github.com/JuliaLang/julia/blob/9f3265399227fbfc4f0160ec3592a9262bd3eb5f/stdlib/Distributed/src/macros.jl
+#
+# Its license is MIT: https://julialang.org/license
 
 using Distributed: preduce, pfor, make_preduce_body, make_pfor_body
 

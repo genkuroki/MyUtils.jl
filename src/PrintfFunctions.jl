@@ -9,6 +9,8 @@ export printf, sprintf
 #     https://github.com/JuliaIO/Formatting.jl/pull/15/files
 #
 # and modified to work with Julia v1.x.
+#
+# Its license is MIT "Expat": https://github.com/JuliaIO/Formatting.jl/blob/master/LICENSE.md
 # 
 ###########
 #

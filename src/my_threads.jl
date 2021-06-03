@@ -1,4 +1,11 @@
-# See julia/base/threadingconstructs.jl
+# The following code is a modified version of
+# 
+#    function _threadsfor(iter, lbody, schedule) 
+#    macro threads(args...)
+#
+# in https://github.com/JuliaLang/julia/blob/9f3265399227fbfc4f0160ec3592a9262bd3eb5f/base/threadingconstructs.jl
+#
+# Its license is MIT: https://julialang.org/license
 
 using Base.Threads
 using Base.Threads: threading_run
