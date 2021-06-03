@@ -1,3 +1,5 @@
+# License is MIT: https://github.com/genkuroki/MyUtils.jl/blob/main/LICENSE
+
 """
     RemoveOneFrom(A::AbstractVector, k::Integer) <: AbstractVector
 

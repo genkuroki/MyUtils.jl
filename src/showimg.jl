@@ -1,3 +1,5 @@
+# The following code is in the public domain.
+
 using Base64
 
 showimg(mime, fn; tag="img") = open(fn) do f

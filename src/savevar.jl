@@ -1,3 +1,5 @@
+# License is MIT: https://github.com/genkuroki/MyUtils.jl/blob/main/LICENSE
+
 """
     savevar(fn, x)
 
@@ -16,6 +18,8 @@ loadvar(fn) = read(fn, String) |> Meta.parse |> eval
     dir_savevar
 
 is the default directory to which `@savevar` saves the values of variables.
+
+
 """
 const dir_savevar = "."
 
