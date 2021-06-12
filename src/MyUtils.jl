@@ -2,8 +2,8 @@ module MyUtils
 
 include("my_threads.jl")
 include("my_distributed.jl")
-include("PrintfFunctions.jl")
-include("RemoveOneFrom.jl")
+include("printf_functions.jl")
+include("remove_one_from.jl")
 include("showimg.jl")
 include("savevar.jl")
 
