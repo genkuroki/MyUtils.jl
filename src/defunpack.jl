@@ -3,7 +3,7 @@ The `DefUnPack` module only exports the `@defunpack` macro,
 which defines a macro unpacking properties of an object.
 
 __Simple Intended Usage:__
-```
+```julia
 julia> using .DefUnPack
 
 julia> struct Foo{A, B, C} a::A; b::B; c::C end
@@ -42,7 +42,7 @@ Let `val` be the value of `expr`. Then the list of the unpacking properties is s
 
 ### Example
 
-```
+```julia
 julia> @defunpack _cat_and_dog (:cat, :dog)
 @unpack_cat_and_dog (macro with 1 method)
 
